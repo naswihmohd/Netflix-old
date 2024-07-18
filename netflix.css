@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+#section-1 {
+    background: black url(./image/download.gif);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    opacity: 0.8;
+    line-height: 20px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+h2:hover {
+    color: red;
+    transform: scale(0.9);
+    transition: .4s;
+}
+
+.netflix {
+    color: rgba(255, 255, 255, 0.742);
+    font-size: 70px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.heiast {
+    background-color: rgba(197, 0, 0, 0.59);
+    padding: 7px;
+    border-radius: 10px;
+    color: black;
+}
+
+span:hover {
+    background-color: rgb(94, 0, 0);
+}
+
+.movie {
+    width: 220px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.movie:hover {
+    transform: scale(1.1);
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.section-2 {
+    text-align: center;
+    opacity: 0.9;
+    padding: 5px;
+}
+
+.scroll {
+    margin: 3%;
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.h-btn {
+    width: 110px;
+    height: 35px;
+    background-color: rgba(117, 117, 117, 0.592);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.h-btn:hover {
+    background: rgb(255, 1, 1);
+    color: black;
+}
+
+.footer-section {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+p {
+    color: rgb(255, 60, 60);
+}
+
+select {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(246, 0, 0);
+
+}
